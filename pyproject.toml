@@ -7,6 +7,9 @@ license = "GPL2"
 
 [tool.poetry.dependencies]
 python = "^3.6"
+toml = "^0.10.2"
+urllib3 = "^1.26.6"
+xdg = {version = "^5.1.0", platform = "linux"}
 
 [tool.poetry.dev-dependencies]
 
