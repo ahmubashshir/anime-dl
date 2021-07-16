@@ -20,6 +20,7 @@ class Site:
     """
     __metaclass__ = ABCMeta
 
+    @classmethod
     @method
     def search(self, what, *args, **kwargs):
         """
